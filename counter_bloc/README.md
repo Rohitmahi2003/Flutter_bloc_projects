@@ -43,3 +43,24 @@ counter_bloc/
    git clone https://github.com/Rohitmahi2003/Flutter_bloc_projects.git
    cd Flutter_bloc_projects/counter_bloc
 
+2.Install dependencies
+ ```bash
+      flutter pub get
+```
+3.Run the app
+```bash
+      flutter run
+```
+
+
+🧠 Learning Outcome
+This project helps you understand:
+
+BLoC architecture
+
+Event-driven state management
+
+Emitting new states based on events
+
+UI updates with BlocBuilder
+
