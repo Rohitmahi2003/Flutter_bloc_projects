@@ -1,16 +1,45 @@
-# counter_bloc
+# 🧮 Counter App using BLoC (Flutter)
 
-A new Flutter project.
+This is a simple Flutter application that demonstrates **state management using BLoC (Business Logic Component)**.  
+It includes functionality to increment and decrement a counter value with proper separation of UI and logic.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📂 Folder Structure
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+counter_bloc/
+├── bloc/
+│ ├── counter_bloc.dart
+│ ├── counter_event.dart
+│ └── counter_state.dart
+├── main.dart
+└── ... (other Flutter files)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+---
+
+## ⚙️ Features
+
+- ✅ Increment the counter
+- ✅ Decrement the counter
+- ✅ Follows BLoC pattern (Event → BLoC → State → UI)
+- ✅ Clean and maintainable code
+
+---
+
+## 🛠️ Tech Stack
+
+- [Flutter](https://flutter.dev/)
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+- [Dart](https://dart.dev/)
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Rohitmahi2003/Flutter_bloc_projects.git
+   cd Flutter_bloc_projects/counter_bloc
+
